@@ -32,7 +32,6 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
-            -Dsonar.projectName="Sonar\ java\ Sample"
             -Dsonar.projectKey=sonar-java-sample
             -Dsonar.sources=src/main
             -Dsonar.tests=src/test
