@@ -32,7 +32,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
-            -Dsonar.projectKey=sonar-java-sample
+            -Dsonar.projectKey=sonar-java-Sample
             -Dsonar.sources=src/main
             -Dsonar.tests=src/test
       - name: SonarQube Quality Gate check
